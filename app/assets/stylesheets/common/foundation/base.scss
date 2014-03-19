@@ -9,6 +9,7 @@ html {
   color: $primary_text_color;
   font: #{$base-font-size}/#{$base-line-height} $base-font-family;
   background-color: $primary_background_color;
+  background-image: $primary_background_image;
   overflow-y: scroll;
   -webkit-font-smoothing: subpixel-antialiased;
 }

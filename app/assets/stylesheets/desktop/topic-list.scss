@@ -62,12 +62,12 @@
   border-collapse: separate;
   border-spacing: 0;
   margin: 0 0 10px;
-  a.title {color: $primary_text_color;}
-  a.title:visited:not(.badge-notification) {color: lighten($primary_text_color, 35%);}
+  a.title {color: $link-color;}
+  a.title:visited:not(.badge-notification) {color: $link-color-visited;}
 
   > tbody > tr {
     &:nth-child(odd) {
-      background-color: lighten($secondary_background_color, 77%);
+      background-color: $primary_background_color;
     }
     &.archived a {
       opacity: 0.6;
@@ -100,8 +100,11 @@
   }
   th {
     color: $topic-list-th-color;
+    font-family: $topic-list-th-font;
     font-weight: normal;
     font-size: 14px;
+    text-shadow: $topic-list-th-shadow;
+    text-transform: $topic-list-th-transform;
     button i.fa {color: $topic-list-th-color;}
 
   }

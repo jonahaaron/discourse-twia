@@ -82,8 +82,11 @@
   }
   th {
     color: $topic-list-th-color;
+    font-family: $topic-list-th-font;
     font-weight: bold;
     font-size: 13px;
+    text-shadow: $topic-list-th-shadow;
+    text-transform: $topic-list-th-transform;
     &:first-of-type {
       @include border-radius-all(4px 0 0 0);
     }

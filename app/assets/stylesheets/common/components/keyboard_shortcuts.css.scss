@@ -1,7 +1,7 @@
 @import "../foundation/variables";
 
 .topic-list-item td:first-child, .topic-post {
-  background-color: inherit;
+  background-color: $primary_background_color;
   border-left: 1px solid transparent;
 }
 

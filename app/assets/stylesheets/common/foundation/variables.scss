@@ -14,6 +14,9 @@ $large-width: 1110px !default;
 // --------------------------------------------------
 
 $black: #333 !default;
+$bone: #dfd6bf;
+$dark: rgba(20, 20, 20, 0.75) !default;
+$napa: #dfd6bf;
 $white: #fff !default;
 
 $blue: #00aaff !default;
@@ -40,10 +43,10 @@ $base-background-color: lighten($black, 60%) !default;
 // Links
 // --------------------------------------------------
 
-$link-color: $blue !default;
-$link-color-visited: darken($blue, 10%) !default;
-$link-color-hover: darken($blue, 10%) !default;
-$link-color-active: darken($blue, 10%) !default;
+$link-color: $red !default;
+$link-color-visited: darken($red, 10%) !default;
+$link-color-hover: darken($red, 10%) !default;
+$link-color-active: darken($red, 10%) !default;
 
 // Badges
 // --------------------------------------------------
@@ -86,7 +89,7 @@ $btn-success-background: lighten($green, 5%);
 
 // Pill nav
 
-$nav-pills-color: $black !default;
+$nav-pills-color: $bone !default;
 $nav-pills-color-hover: $red !default;
 $nav-pills-border-color-hover: lighten($red, 35%) !default;
 $nav-pills-background-color-hover: lighten($red, 35%)  !default;
@@ -125,11 +128,13 @@ $nav-like-button-background-color-active: lighten($pink, 22%) !default;
 
 // Topic list
 // --------------------------------------------------
-
 $topic-list-border-color: lighten($black, 50%) !default;
-$topic-list-th-color: lighten($black, 35%) !default;
+$topic-list-th-color: $bone !default;
 $topic-list-th-border-color: lighten($black, 50%) !default;
 $topic-list-th-background-color: lighten($black, 76%) !default;
+$topic-list-th-font: 'Signika Negative', sans-serif;
+$topic-list-th-shadow: black 0.2em 0.2em 0.1em;
+$topic-list-th-transform: uppercase;
 $topic-list-td-color: lighten($black, 35%) !default;
 $topic-list-td-border-color: lighten($black, 60%) !default;
 $topic-list-star-color: lighten($black, 60%) !default;
@@ -152,8 +157,8 @@ $emphasis_border_color: $blue;
 $warning_border_color: lighten($red, 20%);
 $success_border_color: $green;
 
-$primary_text_color: $black;
-$secondary_text_color: lighten($black, 40%);
+$primary_text_color: $napa;
+$secondary_text_color: rgb(173, 165, 147);;
 $tertiary_text_color: $white;
 $warning_text_color: $red;
 $success_text_color: $green;
@@ -178,8 +183,9 @@ $attention_fg: $blue;
 
 $header-item-highlight: lighten($blue, 45%);
 
-$primary_background_color: $white;
-$secondary_background_color: $black;
+$primary_background_color: $dark;
+$secondary_background_color: $bone;
+$primary_background_image: url('http://twiceavenged.com/resc/bg252523.jpg');
 $tertiary_background_color: lighten($black, 10%);
 $moderator_background_color: lighten($yellow, 30%) !default;
 $emphasis_background_color: lighten($blue, 45%);
